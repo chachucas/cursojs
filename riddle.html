@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/riddle.js"></script>
+
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+
+  <title>Adivinanzas</title>
+  
+</head>
+<body>
+  <header>
+    <h1>Juego de Adivinanzas</h1>
+    <p>Adivina las respuestas correctas a las siguientes adivinanzas:</p>
+  </header>
+
+  <div class="container">
+    
+
+    <form id="gameForm" onsubmit="return false;">
+      <label for="nameInput">Nombre:</label>
+      <input type="text" id="nameInput" required>
+      <br>
+      <label for="guessInput1">Adivinanza 1: "Tiene ojos y no puede ver, tiene un cuarto pero no puede salir. ¿Qué es?"</label>
+      <input type="text" id="guessInput1" required>
+      <br>
+      <label for="guessInput2">Adivinanza 2: "Blanco por dentro, verde por fuera. Si quieres que te lo diga, espera."</label>
+      <input type="text" id="guessInput2" required>
+      <br>
+      <label for="guessInput3">Adivinanza 3: "Es redondo como el sol, guarda todo en su interior, solo puede abrirlo quien tenga la llave de su corazón."</label>
+      <input type="text" id="guessInput3" required>
+      <br>
+      <button class="option" onclick="checkAnswers()">Comprobar Respuestas</button>
+    </form>
+
+    <div id="result"></div>
+    <div id="score"></div>
+    <button class="option" onclick="restartGame()">Reiniciar Juego</button>
+
+    <br><br>        
+    <a href="games.html">
+      <button class="restart">volver al portal</button>
+    </a> 
+  </div>
+</body>
+</html>

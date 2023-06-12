@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/question.js"></script>
+
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+
+  <title>Preguntas y Respuestas</title>
+  
+</head>
+<body>
+
+  <header>
+    <h1>Juego de Preguntas y Respuestas</h1>
+    <p>Responde las siguientes preguntas:</p>
+  </header>
+  
+  <div class="container">    
+    <div id="question-container">
+      <p class="question"></p>
+
+      <div class="options">
+        <button class="option" onclick="checkAnswer(0)"></button>
+        <button class="option" onclick="checkAnswer(1)"></button>
+        <button class="option" onclick="checkAnswer(2)"></button>
+      </div>
+    </div>
+    <div id="result-container">
+      <p class="result"></p>
+    </div>
+    <p class="score"></p>
+    <div class="align">
+      <button class="restart" onclick="restartGame()">Reiniciar Juego</button>
+    </div>
+
+    <br><br>        
+    <a href="games.html">
+      <button class="restart">volver al portal</button>
+    </a> 
+
+  </div>
+  
+<script>
+
+// Iniciar el juego al cargar la página
+startGame();
+
+</script>
+
+</body>
+</html>

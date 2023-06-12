@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #d5d5d5;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 5px;
+}
+
+form {
+  margin: 20px auto;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+}
+
+form input {
+  width: 400px;
+  margin-top: 5px;
+}
+
+form input[type="submit"] {
+  height: 30px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.enviar {
+  width: 50% !important;
+  margin-top: 20px !important;
+}
+
+input {
+  height: 20px;
+}
+
+select {
+  height: 26px;
+  width: 400px;
+}
+
+.formulario {
+  width: 400px;
+}
+
+.error {
+  color:red;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+a {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+
+/*QUESTION*/
+
+p {
+  color: #c3c3c3;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.container {
+  text-align: center;
+  background-color: #666666;
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #333333;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.option {
+  width: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #16a625;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.option:hover {
+  background-color: #5cc01e;
+}
+
+.result {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.score {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+  color: #333333;
+}
+
+.restart {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #166cb1;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: backgound-color 0.3s ease;
+}
+
+.restart:hover {
+  background-color: #3b8bdb;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#result {
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+#score {
+  margin-top: 10px;
+}
+
+.align {
+  display: grid;
+  place-items: center center;
+}

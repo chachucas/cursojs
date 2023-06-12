@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="js/script.js"></script>
+  <link href="css/main.css" rel="stylesheet" type="text/css">
+
+
+  <title>Formulario de mi web</title>
+
+</head>
+
+<body>
+
+  <header>
+    <h1>Formulario de registro</h1>
+  </header>
+
+  <div class="container">
+    <form id="contactForm" class="formulario">
+    
+      <label for="name">Nombre:</label>
+    <input type="text" id="name" name="name"><br>
+    
+      <label for="surname">Apellido:</label>
+      <input type="text" id="surname" name="surname"><br>
+    
+      <label for="age">Edad:</label>
+      <input type="text" id="age" name="age"><br>
+    
+      <label for="email">Correo electrónico:</label>
+    <input type="email" id="email" name="email">
+    <span class="error" id="emailError"></span>
+    
+      <label for="city">Ciudad:</label>
+      <input type="text" id="city" name="city"><br>
+    
+      <label for="state">Provincia:</label>
+      <select id="state">
+        <option value="">Seleccione una Provincia</option>
+      </select><br>
+    
+      <label for="country">País:</label>
+      <select id="country">
+        <option value="">Seleccione un País</option>
+      </select><br>
+    
+      <label for="user">Nombre de usuario:</label>
+      <input type="text" id="user" name="user"><br>
+    
+      <label for="pass">Contraseña:</label>
+      <input type="password" id="pass" name="pass"><br>
+    
+      <label for="repeatPass">Repetir Contraseña:</label>
+      <input type="password" id="repeatPass" name="repeatPass"><br>
+    
+      <button class="option enviar" type="submit">Enviar</button>
+    
+    </form>
+  </div>
+
+</body>
+
+</html>
